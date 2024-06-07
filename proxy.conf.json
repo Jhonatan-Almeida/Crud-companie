@@ -1,0 +1,14 @@
+{
+  "/api/pesnot/**": {
+    "target": "http://localhost:8095",
+    "secure":false,
+    "changeOrigin":true
+  },
+  "/api/pesnot-acto/**": {
+    "target": "http://localhost:8092",
+    "secure":false,
+    "changeOrigin":true
+  }
+
+  
+}
